@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    
 }
+@media (max-aspect-ratio : 7/10){
+    .JoinContainer{
+        width: 100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    }
+    .JoinContainer > img{
+        width: 30vw !important;
+    }
+    .JoinContainer > h1{
+        
+        font-size: 6vw;
+        width: 65vw;
+        border-bottom: 0.6vw solid white;
+        text-align: center;
+        padding: 3vw;
+       
+    }
+    #joininput{
+        width: 65vw;
+        padding: 4vw;
+       
+        font-size : 4vw;
+        margin: 5vw;
+    
+    }
+    .joinbtn{
+        width: 65vw;
+        padding: 4vw;
+        font-size : 4vw;
+    }
+    .chatContainer{
+        background-color: white;
+        height: 100% !important;
+        width: 100% !important;
+    }
 }
